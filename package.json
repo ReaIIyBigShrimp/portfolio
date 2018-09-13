@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio",
+  "version": "0.0.1",
+  "description": "Portfolio for final year of Web Design BSc.",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "latest",
+    "load-grunt-config": "^0.19.2"
+  },
+  "main": "index.html",
+  "repository": "http://github.com/ReaIIyBigShrimp/portfolio",
+  "author": "Darryl Dolan-Rathmell <darryl.dolan@hotmail.co.uk>",
+  "dependencies": {}
+}

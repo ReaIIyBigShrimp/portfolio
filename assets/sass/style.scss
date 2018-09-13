@@ -1,0 +1,130 @@
+@import "partials/colours.scss";
+/* Contents */
+
+/*
+- General
+- Typography
+- Navigation
+- Images, Video & Audio
+- Footer
+- Media Queries
+
+*/
+/* General
+-------------------------------*/
+body {
+    
+}
+.row {
+    padding: 1.5% 0;
+}
+
+/* Typography
+-------------------------------*/
+p {
+    font-family: 'Economica', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 3em;
+    color: #fff;
+}
+
+.text-centred {
+    text-align: center;
+}
+
+.content_heading h2 {
+    margin-top: 0.2em;
+}
+
+.bio {
+    font-family: 'Economica', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+footer p {
+    color: #d8d8d8;
+}
+
+/* Navigation
+-------------------------------*/
+
+.border-top {
+    border-top: 2px solid #fff;
+}
+
+.portfolio_links {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nav_item {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;;
+}
+
+.nav_item a {
+    text-transform: uppercase;
+    font-family: 'Economica', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin: 0 auto;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #fff;
+    transition: opacity 0.5s;
+}
+
+.nav_item a:hover {
+    opacity: 0.5;
+}
+
+.portfolio_links a{
+    text-decoration: none;
+}
+/* Images, Video & Audio
+-------------------------------*/
+
+.image_grid {
+    margin-top: 1%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.photo {
+    border-radius: 300px;
+    border: 5px solid #fff;
+}
+
+/* Footer
+-------------------------------*/
+
+
+/* Media Queries
+-------------------------------*/
+@media (max-width: 479px) {
+    .nav_item {
+        margin-left: 4%;
+        margin-right: 0%;
+    }
+    .logo_heading h2 {
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+    }
+}
+
+
+    
