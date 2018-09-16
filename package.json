@@ -16,5 +16,8 @@
   "main": "index.html",
   "repository": "http://github.com/ReaIIyBigShrimp/portfolio",
   "author": "Darryl Dolan-Rathmell <darryl.dolan@hotmail.co.uk>",
-  "dependencies": {}
+  "dependencies": {
+    "bourbon": "^5.1.0",
+    "vivus": "^0.4.4"
+  }
 }

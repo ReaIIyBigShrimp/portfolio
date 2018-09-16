@@ -1,3 +1,5 @@
+@import "bourbon/bourbon";
+
 @import "partials/colours.scss";
 /* Contents */
 
@@ -17,6 +19,20 @@ body {
 }
 .row {
     padding: 1.5% 0;
+}
+
+#ddr {
+    path {
+        stroke-width: 1px;
+        
+        transition: fill 2.25s, stroke-width .25s;
+        
+    }
+}
+
+.svg-bg path {
+    stroke-width: 0px !important;
+    fill: #fff !important;
 }
 
 /* Typography
