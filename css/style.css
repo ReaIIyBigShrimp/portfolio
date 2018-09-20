@@ -1,6 +1,6 @@
 /* Colour Scheme */
 .colour-1 {
-  background-color: #5C9EAD; }
+  background-color: #1F487E; }
 
 .colour-2 {
   background-color: #F7FFF7; }
@@ -9,7 +9,7 @@
   background-color: #343434; }
 
 .colour-4 {
-  background-color: #613F75; }
+  background-color: #1D3461; }
 
 .colour-5 {
   background-color: #000000; }
@@ -31,11 +31,15 @@
 
 #ddr path {
   stroke-width: 1px;
-  transition: fill 2.25s, stroke-width .25s; }
+  -webkit-transition: fill 4s, stroke-width .25s;
+  transition: fill 4s, stroke-width .25s; }
 
 .svg-bg path {
   stroke-width: 0px !important;
-  fill: #fff !important; }
+  fill: #fff; }
+
+.svg-brackets {
+  fill: #000000; }
 
 /* Typography
 -------------------------------*/
@@ -51,8 +55,13 @@ h2 {
 .text-centred {
   text-align: center; }
 
+.content_heading {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
 .content_heading h2 {
-  margin-top: 0.2em; }
+  font-size: 5em;
+  color: #ffffff; }
 
 .bio {
   font-family: 'Economica', sans-serif;
@@ -64,8 +73,11 @@ footer p {
 
 /* Navigation
 -------------------------------*/
+header .logo-svg {
+  height: 50px; }
+
 .border-top {
-  border-top: 2px solid #fff; }
+  border-top: 2px solid #F7FFF7; }
 
 .portfolio_links {
   list-style: none;
