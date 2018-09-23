@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'js/script.js' : ['assets/js/*.js']
+                    'scripts/script.js' : ['assets/js/*.js']
                 }
             }
         },

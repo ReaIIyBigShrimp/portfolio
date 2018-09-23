@@ -14,9 +14,7 @@
 */
 /* General
 -------------------------------*/
-.row {
-    padding: 1.5% 0;
-}
+
 // SVG
 #ddr {
     path {
@@ -25,39 +23,41 @@
         transition: fill 4s, stroke-width .25s;
     }
 }
+.svg-heading {
+    padding: 100px 0 100px 0;
+}
 .svg-bg path {
     stroke-width: 0px !important;
     fill: #fff;
 }
-.svg-brackets {
-    fill: #000000;
-}
 /* Typography
 -------------------------------*/
 p {
-    font-family: 'Economica', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 h2 {
     text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-size: 3em;
+    font-family: 'Economica', sans-serif;
+    
     color: #fff;
 }
-.text-centred {
-    text-align: center;
+h3, h4, h5 {
+    font-family: 'Economica', sans-serif;
 }
-.content_heading {
-    margin-top: 2em;
-    margin-bottom:  2em;
+
+
+.main-heading {
+    font-family: 'Audiowide', cursive;
 }
-.content_heading h2 {
-    font-size: 5em;
-    color: #ffffff;
+.sub-heading {
+    font-family: 'Open Sans', sans-serif;
 }
 .bio {
-    font-family: 'Economica', sans-serif;
-    font-size: 1.5em;
     color: #fff;
+}
+.custom-text {
+    color: $colour-1;
 }
 footer p {
     color: #d8d8d8;
@@ -65,47 +65,35 @@ footer p {
 
 /* Navigation
 -------------------------------*/
-
-header {
-      .logo-svg {
-          height: 50px;
-      }  
+nav {
+    background-color: $colour-1;
 }
+
+a {
+    font-family: 'Economica', sans-serif;
+    color: $colour-1;
+}
+
 .border-top {
     border-top: 2px solid $colour-2;
 }
-.portfolio_links {
-    list-style: none;
-    margin-bottom: 0;
+.btn {background-color: $colour-1;}
+.btn-small {background-color: $colour-1;}
+.btn-large {background-color: $colour-1;}
+
+.custom-btn:hover {
+    background-color: lighten($colour-1, 20%);
 }
-.nav_item {
-    display: inline-block;
-    position: relative;
-    float: left;
-    margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;;
+.custom-btn:focus {
+    background-color: lighten($colour-1, 20%);
 }
-.nav_item a {
-    text-transform: uppercase;
-    font-family: 'Economica', sans-serif;
-    font-size: 1em;
-    font-weight: 600;
-    letter-spacing: .2rem;
-    margin: 0 auto;
-    text-decoration: none;
-    line-height: 6.5rem;
-    color: #fff;
-    transition: opacity 0.5s;
-}
-.nav_item a:hover {
-    opacity: 0.5;
-}
-.portfolio_links a{
-    text-decoration: none;
-}
+
 /* Images, Video & Audio
 -------------------------------*/
+.bg-img {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
 
 .image_grid {
     margin-top: 1%;
@@ -123,18 +111,55 @@ img {
 
 /* Media Queries
 -------------------------------*/
-@media (max-width: 479px) {
-    .nav_item {
-        margin-left: 4%;
-        margin-right: 0%;
-    }
-    .logo_heading h2 {
-    text-align: center;
-    font-family: 'Economica', sans-serif;
-    font-size: 2.5em;
-    color: #fff;
-    }
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: $colour-2;
 }
 
+p {
+  line-height: 2rem;
+}
 
-    
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
