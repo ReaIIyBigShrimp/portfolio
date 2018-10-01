@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     // Heading typing animation 
     var typed = new Typed('#typed_name', {
-        strings: ["Darryl Dolan-Rathmell"],
+        strings: ["DDR", "Darryl Dolan-Rathmell"],
         typeSpeed: 50
     });
 });

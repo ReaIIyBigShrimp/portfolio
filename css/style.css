@@ -42,16 +42,19 @@
 /* General
 -------------------------------*/
 #ddr path {
+  stroke: #ffffff;
   stroke-width: 1px;
-  -webkit-transition: fill 4s, stroke-width .25s;
-  transition: fill 4s, stroke-width .25s; }
+  fill: #1F487E;
+  stroke-miterlimit: 10;
+  -webkit-transition: fill 1s, stroke-width .25s;
+  transition: fill 1s, stroke-width .25s; }
 
 .svg-heading {
   padding: 100px 0 100px 0; }
 
 .svg-bg path {
   stroke-width: 0px !important;
-  fill: #fff; }
+  fill: #fff !important; }
 
 /* Typography
 -------------------------------*/

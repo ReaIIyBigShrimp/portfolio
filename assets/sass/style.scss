@@ -18,9 +18,12 @@
 // SVG
 #ddr {
     path {
+        stroke: #ffffff;
         stroke-width: 1px;
-        -webkit-transition: fill 4s, stroke-width .25s;
-        transition: fill 4s, stroke-width .25s;
+        fill: $colour-1;
+        stroke-miterlimit:10;
+        -webkit-transition: fill 1s, stroke-width .25s;
+        transition: fill 1s, stroke-width .25s;
     }
 }
 .svg-heading {
@@ -28,7 +31,7 @@
 }
 .svg-bg path {
     stroke-width: 0px !important;
-    fill: #fff;
+    fill: #fff !important;
 }
 /* Typography
 -------------------------------*/
@@ -68,12 +71,10 @@ footer p {
 nav {
     background-color: $colour-1;
 }
-
 a {
     font-family: 'Economica', sans-serif;
     color: $colour-1;
 }
-
 .border-top {
     border-top: 2px solid $colour-2;
 }
