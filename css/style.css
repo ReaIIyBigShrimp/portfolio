@@ -41,7 +41,7 @@
 */
 /* General
 -------------------------------*/
-#ddr path {
+svg path, #ddr path {
   stroke: #ffffff;
   stroke-width: 1px;
   fill: #1F487E;
