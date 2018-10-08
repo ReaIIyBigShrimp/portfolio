@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    console.log("Parallax...")
+    $('.sidenav').sidenav();
     $('.parallax').parallax();
-    console.log("Parallax loaded...")
+    
     // Resets SVG animation, then plays
     var resetSVG = function(){
         $('#svg_bg').removeClass('svg-bg');

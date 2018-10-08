@@ -71,13 +71,22 @@ footer p {
 nav {
     background-color: $colour-1;
 }
+.ddr {
+    font-family: 'Audiowide', cursive;
+}
 a {
     font-family: 'Economica', sans-serif;
     color: $colour-1;
 }
-.border-top {
-    border-top: 2px solid $colour-2;
+.nav-links {
+    li {display: block;}
 }
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
 .btn {background-color: $colour-1;}
 .btn-small {background-color: $colour-1;}
 .btn-large {background-color: $colour-1;}
@@ -124,10 +133,6 @@ p {
   line-height: 2rem;
 }
 
-.sidenav-trigger {
-  color: #26a69a;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -151,6 +156,9 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  .sidenav-trigger {
+      display: block;
   }
 }
 
