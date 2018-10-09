@@ -11,7 +11,16 @@ $(document).ready(function(){
     $('#ddr').click(function(){
         resetSVG();
     });
-        
+    // Used to log if the user has already hovered over the DDR SVG
+    var svgHasHovered = false;
+    $('#ddr').hover(function(){
+        if (svgHasHovered != true) {
+            resetSVG();
+        }
+        svgHasHovered = true;
+    });
+    
+
     var ddr = new Vivus('ddr', {type: 'delayed', start: 'autostart', duration: 200}, function(){
         // Background of SVG to white, using CSS class change
         $('#svg_bg').addClass("svg-bg");
