@@ -1,6 +1,7 @@
 @import "bourbon/bourbon";
-
+@import "materialize";
 @import "partials/colours.scss";
+@import "partials/variables.scss";
 /* Contents */
 
 /*
@@ -69,7 +70,7 @@ footer p {
 /* Navigation
 -------------------------------*/
 nav {
-    background-color: $colour-1;
+    background-color: $primary-color;
 }
 .ddr {
     font-family: 'Audiowide', cursive;
