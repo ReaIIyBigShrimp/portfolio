@@ -1,7 +1,6 @@
 @import "bourbon/bourbon";
 @import "materialize";
 @import "partials/colours.scss";
-@import "partials/variables.scss";
 /* Contents */
 
 /*
@@ -15,7 +14,9 @@
 */
 /* General
 -------------------------------*/
-
+.row {
+    margin-bottom: 0px;
+}
 // SVG
 svg, #ddr {
     path {
@@ -88,16 +89,7 @@ a {
     width: 15.625em; /*should match the above value*/
 }
 
-.btn {background-color: $colour-1;}
-.btn-small {background-color: $colour-1;}
-.btn-large {background-color: $colour-1;}
 
-.custom-btn:hover {
-    background-color: lighten($colour-1, 20%);
-}
-.custom-btn:focus {
-    background-color: lighten($colour-1, 20%);
-}
 
 /* Images, Video & Audio
 -------------------------------*/
@@ -123,7 +115,11 @@ img {
 /* Media Queries
 -------------------------------*/
 
-
+@media only screen and (min-width: 992px)  {
+    nav .brand-logo {
+        margin-left: 10px;
+    }
+}
 
 nav ul a,
 nav .brand-logo {
@@ -151,6 +147,10 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+
+  .main-heading {
+      font-size: 3em;
   }
 }
 

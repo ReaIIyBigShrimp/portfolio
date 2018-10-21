@@ -31,4 +31,14 @@ $(document).ready(function(){
         strings: ["DDR", "Darryl Dolan-Rathmell"],
         typeSpeed: 50
     });
+
+    
+
+    function sendEmail() {
+        window.open('mailto:darryl.dolan@hotmail.co.uk?subject=Darryl is Awesome');
+    };
+
+    $('#email').click(function(){
+        sendEmail();
+    });
 });

@@ -2,8 +2,9 @@
 
 $colour-1: #1F487E;
 $colour-2: #F7FFF7;
-$colour-3: #343434;
-$colour-4: #1D3461;
+$colour-3: #202020;
+/*Secondary Colour*/
+$colour-4: #468C98;
 $colour-5: #000000;
 
 .colour-1{ background-color: $colour-1}
@@ -17,5 +18,3 @@ $colour-5: #000000;
 .colour-3-text {color: $colour-3}
 .colour-4-text {color: $colour-4}
 .colour-5-text {color: $colour-5}
-
-$test-colour: rgb(97, 182, 109);
