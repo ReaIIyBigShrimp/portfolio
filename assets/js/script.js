@@ -1,6 +1,11 @@
 $(document).ready(function(){
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
+    // Side nav
+    var sideNavElems = document.querySelectorAll('.sidenav');
+    var sideNavArray = M.Sidenav.init(sideNavElems);
+
+    // Paralax
+    var paralaxElems = document.querySelectorAll('.parallax');
+    var paralaxElemsArray = M.Parallax.init(paralaxElems);
     
     // Resets SVG animation, then plays
     var resetSVG = function(){
@@ -41,4 +46,7 @@ $(document).ready(function(){
     $('#email').click(function(){
         sendEmail();
     });
+
+    
+    
 });
