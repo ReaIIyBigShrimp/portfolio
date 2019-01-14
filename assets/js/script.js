@@ -2,7 +2,7 @@ $(document).ready(function(){
     // Side nav
     var sideNavElems = document.querySelectorAll('.sidenav');
     var sideNavArray = M.Sidenav.init(sideNavElems);
-
+    
     // Paralax
     var paralaxElems = document.querySelectorAll('.parallax');
     var paralaxElemsArray = M.Parallax.init(paralaxElems);
@@ -24,7 +24,9 @@ $(document).ready(function(){
         }
         svgHasHovered = true;
     });
-    
+    document.getElementById('about').onscroll = function(){
+        resetSVG();
+    };
 
     var ddr = new Vivus('ddr', {type: 'delayed', start: 'autostart', duration: 200}, function(){
         // Background of SVG to white, using CSS class change
