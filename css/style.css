@@ -6525,6 +6525,9 @@ input[type=range]::-ms-thumb {
 .row {
   margin-bottom: 0px; }
 
+.padding-lg {
+  padding: 50px; }
+
 svg path, #ddr path {
   stroke: #ffffff;
   stroke-width: 1px;
