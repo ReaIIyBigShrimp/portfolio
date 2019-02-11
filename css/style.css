@@ -6522,11 +6522,8 @@ input[type=range]::-ms-thumb {
 .lg-divider {
   height: 5px; }
 
-.row {
-  margin-bottom: 0px; }
-
-.padding-lg {
-  padding: 50px !important; }
+.contact-row {
+  margin-bottom: 40px; }
 
 svg path, #ddr path {
   stroke: #ffffff;
