@@ -42,7 +42,7 @@ $(document).ready(function(){
     
 
     function sendEmail() {
-        window.open('mailto:darryl.dolan@hotmail.co.uk?subject=Darryl is Awesome');
+        window.open('mailto:darryl.dolan@hotmail.co.uk?subject=CV/Business Enquiry');
     };
 
     $('#email').click(function(){
